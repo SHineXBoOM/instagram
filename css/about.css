@@ -1,0 +1,94 @@
+header {
+    min-height: 100vh;
+}
+
+
+
+.main-text {
+    text-align: left;
+}
+
+
+
+.title {
+    color: #ffffff;
+    font-size: 30px;
+    font-family: 'Encode Sans Expanded',
+        sans-serif;
+    font-weight: bold;
+}
+
+.info {
+    color: #cccccc;
+    font-family: 'Saira Semi Condensed',
+        sans-serif;
+    font-weight: bold;
+}
+
+
+.info-icon {
+    font-size: 20px;
+}
+
+.header-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.soc-ul {
+    display: flex;
+    padding: 0;
+}
+
+@media (max-width:575.5px) {
+    .soc-ul {
+        display: block;
+        text-align: left;
+    }
+
+    .soc-ul li {
+        margin-bottom: 30px;
+    }
+}
+
+.soc-ul li {
+    margin-right: 20px;
+    font-size: 18px;
+    font-family: 'Raleway',
+        sans-serif;
+    font-weight: bold;
+}
+
+.social-title {
+    color: #ffb600;
+    margin-bottom: 30px;
+}
+
+.soc {
+    border: 1px solid #ccc;
+    padding: 12px 28px;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(255, 234, 0, 1);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(255, 234, 0, 1);
+    box-shadow: 0px 0px 5px 0px rgba(255, 234, 0, 1);
+    transition: 0.3s;
+    
+}
+
+.soc:hover {
+    border: 2px solid #ffb600;
+
+}
+
+
+
+/* fonts */
+
+/* font-family: 'Encode Sans Expanded',
+sans-serif;
+font-family: 'Raleway',
+sans-serif;
+font-family: 'Saira Semi Condensed',
+sans-serif;
+font-family: 'Fresca',
+sans-serif; */

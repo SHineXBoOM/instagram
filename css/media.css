@@ -1,0 +1,75 @@
+@media(max-width:575.5px) {
+    .navbar-brand {
+        padding: 0px 8px;
+        border-radius: 0px;
+        font-size: 28px;
+        box-shadow: unset;
+       
+    }
+
+
+    .logo-line {
+        border-bottom: 1px solid #ffb600;
+        width: 30px;
+    }
+    
+    .nav-link {
+        font-size: 14px;
+    }
+
+    .navbar-nav {
+        padding: 0px 15px;
+        padding-top: 15px;
+    }
+
+    .header-title {
+        font-size: 39px;
+    }
+
+    .title-line {
+        margin-bottom: 40px;
+    }
+
+    .web-features li {
+        font-size: 14px;
+    }
+
+    .scrollDown {
+        font-size: 20px;
+    }
+
+    .section-main {
+        border-radius: 0px;
+        border: 0px solid #000000;
+    }
+
+    .sublikes {
+        display: block;
+    }
+
+    .sl-1 {
+        margin-bottom: 30px;
+    }
+
+    .sl-1,
+    .sl-2,
+    .sl-3 {
+        width: calc(100% - 20%);
+        margin: auto;
+        margin-bottom: 30px;
+        background-color: transparent !important;
+    }
+
+    .foot-sub {
+        font-size: 14px;
+    }
+
+    .rights {
+        font-size: 12px;
+    }
+
+    footer img {
+        width: 75px;
+        height: 75px;
+    }
+}

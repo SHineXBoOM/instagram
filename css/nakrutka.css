@@ -1,0 +1,85 @@
+body {
+    background: url('../img/background.png') no-repeat center /cover;
+}
+.title {
+    font-size: 39px;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Fresca',
+    sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+
+.sellblock {
+    text-align: center;
+}
+
+.selltitle {
+    color: #ffffff;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.sellUl {
+    text-align: left;
+}
+
+.sellUl li {
+    margin-top: 10px;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.sb-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.start {
+    text-align: center;
+    padding: 12px 28px;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    transition: 0.3s border;
+}
+
+.start:hover {
+    opacity: 0.8;
+    border: 2px solid #ccc;
+}
+
+
+
+
+/* fonts */
+
+/* font-family: 'Encode Sans Expanded',
+sans-serif;
+font-family: 'Raleway',
+sans-serif;
+font-family: 'Saira Semi Condensed',
+sans-serif;
+font-family: 'Fresca',
+sans-serif; */
+
+
+
+@media (max-width:575.5px) {
+    .title {
+        font-size: 22px;
+    }
+    .sb-row {
+        display: block !important;
+    }
+
+    .selltitle {
+        font-size: 18px;
+    }
+
+    .sellUl li {
+        font-size: 16px;
+    }
+}
